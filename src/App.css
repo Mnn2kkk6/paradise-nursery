@@ -1,0 +1,255 @@
+/* ============================================================
+   Paradise Nursery — design tokens
+   Palette: deep forest canopy + warm terracotta pot accent
+   Type: Fraunces (display, botanical warmth) + Inter (body/UI)
+   ============================================================ */
+:root {
+  --color-canopy: #16342a;      /* deep forest green — headings, nav */
+  --color-fern: #2f6b4f;        /* mid green — secondary text/accents */
+  --color-leaf: #5a9c5e;        /* primary action green */
+  --color-leaf-dark: #47824c;   /* hover state for primary actions */
+  --color-clay: #c17b4f;        /* warm terracotta — highlights, badges */
+  --color-clay-dark: #a8663d;
+  --color-paper: #faf7f0;       /* warm off-white background */
+  --color-surface: #ffffff;
+  --color-ink: #26312b;         /* body text */
+  --color-ink-soft: #5c6b62;    /* muted text */
+  --color-line: #dfe7de;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  --shadow-card: 0 1px 2px rgba(22, 52, 42, 0.06), 0 8px 24px rgba(22, 52, 42, 0.08);
+  --shadow-card-hover: 0 4px 10px rgba(22, 52, 42, 0.10), 0 16px 32px rgba(22, 52, 42, 0.14);
+
+  --ease-standard: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration-fast: 160ms;
+  --duration-base: 260ms;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background-color: var(--color-paper);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ---------- View transition (App.jsx swaps landing/products/cart) ---------- */
+.view-fade-enter {
+  animation: viewFadeIn var(--duration-base) var(--ease-standard);
+}
+
+@keyframes viewFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Landing Page ---------- */
+.landing-page {
+  min-height: 100vh;
+  width: 100%;
+  background-image:
+    linear-gradient(180deg, rgba(15, 38, 27, 0.5) 0%, rgba(15, 38, 27, 0.78) 100%),
+    url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-overlay {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 28px 48px;
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-logo {
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.about-link {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  color: #ffffff;
+  padding: 9px 20px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
+}
+
+.about-link:hover {
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.85);
+}
+
+.about-link:focus-visible,
+.get-started-btn:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.landing-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 620px;
+}
+
+.landing-title {
+  color: #ffffff;
+  font-size: clamp(2.6rem, 5vw, 3.6rem);
+  line-height: 1.05;
+  margin: 0 0 14px 0;
+  font-weight: 600;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.35);
+}
+
+.landing-tagline {
+  color: #e9f1e7;
+  font-size: 1.15rem;
+  max-width: 46ch;
+  margin: 0 0 34px 0;
+  line-height: 1.55;
+}
+
+.get-started-btn {
+  background-color: var(--color-leaf);
+  color: #ffffff;
+  border: none;
+  padding: 15px 36px;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(22, 52, 42, 0.35);
+  transition: background-color var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard),
+    box-shadow var(--duration-fast) var(--ease-standard);
+}
+
+.get-started-btn:hover {
+  background-color: var(--color-leaf-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(22, 52, 42, 0.4);
+}
+
+.get-started-btn:active {
+  transform: translateY(0);
+}
+
+/* ---------- About Us Modal ---------- */
+.about-us-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(15, 30, 22, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: overlayFadeIn var(--duration-fast) var(--ease-standard);
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.about-us-card {
+  background: var(--color-surface);
+  max-width: 480px;
+  width: 90%;
+  padding: 34px;
+  border-radius: var(--radius-lg);
+  position: relative;
+  box-shadow: 0 20px 60px rgba(15, 30, 22, 0.35);
+  animation: cardPopIn var(--duration-base) var(--ease-standard);
+}
+
+@keyframes cardPopIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.about-us-card h2 {
+  margin-top: 0;
+  color: var(--color-canopy);
+  font-size: 1.5rem;
+}
+
+.about-us-card p {
+  color: var(--color-ink-soft);
+  line-height: 1.6;
+}
+
+.about-us-close {
+  position: absolute;
+  top: 14px;
+  right: 18px;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  color: var(--color-ink-soft);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  transition: background var(--duration-fast) var(--ease-standard), color var(--duration-fast) var(--ease-standard);
+}
+
+.about-us-close:hover {
+  background: var(--color-paper);
+  color: var(--color-canopy);
+}

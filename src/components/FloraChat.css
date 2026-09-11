@@ -1,0 +1,228 @@
+.flora-widget {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.flora-fab {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-leaf);
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(22, 52, 42, 0.35);
+  transition: background-color var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.flora-fab:hover {
+  background-color: var(--color-leaf-dark);
+  transform: translateY(-2px);
+}
+
+.flora-fab:focus-visible {
+  outline: 2px solid var(--color-canopy);
+  outline-offset: 3px;
+}
+
+.flora-panel {
+  width: min(380px, calc(100vw - 32px));
+  max-height: min(600px, calc(100vh - 120px));
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 20px 60px rgba(15, 30, 22, 0.35);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: cardPopIn var(--duration-base) var(--ease-standard);
+}
+
+.flora-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--color-canopy);
+  padding: 16px 16px 16px 18px;
+}
+
+.flora-avatar {
+  font-size: 1.6rem;
+  line-height: 1;
+}
+
+.flora-header-text {
+  flex: 1;
+}
+
+.flora-name {
+  margin: 0;
+  color: #ffffff;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.flora-subtitle {
+  margin: 2px 0 0 0;
+  color: #cfe0d1;
+  font-size: 0.8rem;
+}
+
+.flora-close {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 50%;
+  transition: background var(--duration-fast) var(--ease-standard);
+}
+
+.flora-close:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.flora-messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: var(--color-paper);
+}
+
+.flora-message {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 92%;
+}
+
+.flora-message.bot {
+  align-items: flex-start;
+  align-self: flex-start;
+}
+
+.flora-message.user {
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+.flora-bubble {
+  margin: 0;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.flora-message.bot .flora-bubble {
+  background-color: var(--color-surface);
+  color: var(--color-ink);
+  border-bottom-left-radius: 2px;
+  box-shadow: var(--shadow-card);
+}
+
+.flora-message.user .flora-bubble {
+  background-color: var(--color-leaf);
+  color: #ffffff;
+  border-bottom-right-radius: 2px;
+}
+
+.flora-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.flora-option-btn {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-leaf);
+  color: var(--color-fern);
+  padding: 7px 14px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: background-color var(--duration-fast) var(--ease-standard),
+    color var(--duration-fast) var(--ease-standard);
+}
+
+.flora-option-btn:hover {
+  background-color: var(--color-leaf);
+  color: #ffffff;
+}
+
+.flora-option-btn:focus-visible {
+  outline: 2px solid var(--color-canopy);
+  outline-offset: 2px;
+}
+
+.flora-input-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid var(--color-line);
+  background-color: var(--color-surface);
+}
+
+.flora-input {
+  flex: 1;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  padding: 9px 16px;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-ink);
+  outline: none;
+  transition: border-color var(--duration-fast) var(--ease-standard);
+}
+
+.flora-input:focus {
+  border-color: var(--color-leaf);
+}
+
+.flora-send-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-leaf);
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background-color var(--duration-fast) var(--ease-standard);
+}
+
+.flora-send-btn:hover {
+  background-color: var(--color-leaf-dark);
+}
+
+.flora-disclaimer {
+  margin: 0;
+  padding: 0 14px 12px;
+  font-size: 0.7rem;
+  color: var(--color-ink-soft);
+  background-color: var(--color-surface);
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .flora-widget {
+    right: 14px;
+    bottom: 14px;
+  }
+}
