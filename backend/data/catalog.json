@@ -1,0 +1,380 @@
+[
+  {
+    "name": "Snake Plant",
+    "department": "plants",
+    "category": "Air Purifying Plants",
+    "price": 15,
+    "info": "Low to bright indirect light · Water every 2–3 weeks"
+  },
+  {
+    "name": "Spider Plant",
+    "department": "plants",
+    "category": "Air Purifying Plants",
+    "price": 12,
+    "info": "Bright indirect light · Water weekly"
+  },
+  {
+    "name": "Peace Lily",
+    "department": "plants",
+    "category": "Air Purifying Plants",
+    "price": 18,
+    "info": "Medium, indirect light · Water weekly"
+  },
+  {
+    "name": "Boston Fern",
+    "department": "plants",
+    "category": "Air Purifying Plants",
+    "price": 14,
+    "info": "Indirect light, high humidity · Keep soil moist"
+  },
+  {
+    "name": "Rubber Plant",
+    "department": "plants",
+    "category": "Air Purifying Plants",
+    "price": 20,
+    "info": "Bright indirect light · Water every 1–2 weeks"
+  },
+  {
+    "name": "Areca Palm",
+    "department": "plants",
+    "category": "Air Purifying Plants",
+    "price": 25,
+    "info": "Bright indirect light · Water weekly"
+  },
+  {
+    "name": "Lavender",
+    "department": "plants",
+    "category": "Aromatic Plants",
+    "price": 10,
+    "info": "Full sun · Water when soil is dry"
+  },
+  {
+    "name": "Rosemary",
+    "department": "plants",
+    "category": "Aromatic Plants",
+    "price": 9,
+    "info": "Full sun · Water sparingly"
+  },
+  {
+    "name": "Mint",
+    "department": "plants",
+    "category": "Aromatic Plants",
+    "price": 7,
+    "info": "Partial sun · Keep soil consistently moist"
+  },
+  {
+    "name": "Jasmine",
+    "department": "plants",
+    "category": "Aromatic Plants",
+    "price": 16,
+    "info": "Bright light · Water when top inch is dry"
+  },
+  {
+    "name": "Lemon Balm",
+    "department": "plants",
+    "category": "Aromatic Plants",
+    "price": 8,
+    "info": "Partial sun · Water regularly"
+  },
+  {
+    "name": "Basil",
+    "department": "plants",
+    "category": "Aromatic Plants",
+    "price": 6,
+    "info": "Full sun · Water when soil feels dry"
+  },
+  {
+    "name": "Aloe Vera",
+    "department": "plants",
+    "category": "Succulents & Cacti",
+    "price": 11,
+    "info": "Bright light · Water every 2–3 weeks"
+  },
+  {
+    "name": "Echeveria",
+    "department": "plants",
+    "category": "Succulents & Cacti",
+    "price": 13,
+    "info": "Bright light · Water sparingly"
+  },
+  {
+    "name": "Jade Plant",
+    "department": "plants",
+    "category": "Succulents & Cacti",
+    "price": 15,
+    "info": "Bright light · Water every 2 weeks"
+  },
+  {
+    "name": "Barrel Cactus",
+    "department": "plants",
+    "category": "Succulents & Cacti",
+    "price": 17,
+    "info": "Full sun · Water once a month"
+  },
+  {
+    "name": "Zebra Haworthia",
+    "department": "plants",
+    "category": "Succulents & Cacti",
+    "price": 12,
+    "info": "Bright indirect light · Water every 2–3 weeks"
+  },
+  {
+    "name": "Ponytail Palm",
+    "department": "plants",
+    "category": "Succulents & Cacti",
+    "price": 22,
+    "info": "Bright light · Water every 3–4 weeks"
+  },
+  {
+    "name": "Orchid",
+    "department": "plants",
+    "category": "Flowering Plants",
+    "price": 24,
+    "info": "Bright indirect light · Water weekly, let roots dry between"
+  },
+  {
+    "name": "African Violet",
+    "department": "plants",
+    "category": "Flowering Plants",
+    "price": 13,
+    "info": "Bright indirect light · Water from below"
+  },
+  {
+    "name": "Anthurium",
+    "department": "plants",
+    "category": "Flowering Plants",
+    "price": 19,
+    "info": "Bright indirect light · Water weekly"
+  },
+  {
+    "name": "Begonia",
+    "department": "plants",
+    "category": "Flowering Plants",
+    "price": 14,
+    "info": "Partial shade · Water when topsoil is dry"
+  },
+  {
+    "name": "Hibiscus",
+    "department": "plants",
+    "category": "Flowering Plants",
+    "price": 21,
+    "info": "Full sun · Water regularly"
+  },
+  {
+    "name": "Kalanchoe",
+    "department": "plants",
+    "category": "Flowering Plants",
+    "price": 10,
+    "info": "Bright light · Water every 1–2 weeks"
+  },
+  {
+    "name": "ZZ Plant",
+    "department": "plants",
+    "category": "Low-Light Plants",
+    "price": 20,
+    "info": "Low to bright indirect light · Water every 2–3 weeks"
+  },
+  {
+    "name": "Pothos",
+    "department": "plants",
+    "category": "Low-Light Plants",
+    "price": 9,
+    "info": "Low to bright indirect light · Water when topsoil is dry"
+  },
+  {
+    "name": "Philodendron",
+    "department": "plants",
+    "category": "Low-Light Plants",
+    "price": 16,
+    "info": "Low to medium light · Water weekly"
+  },
+  {
+    "name": "Calathea",
+    "department": "plants",
+    "category": "Low-Light Plants",
+    "price": 18,
+    "info": "Low to medium light, high humidity · Keep soil moist"
+  },
+  {
+    "name": "Cast Iron Plant",
+    "department": "plants",
+    "category": "Low-Light Plants",
+    "price": 19,
+    "info": "Low light · Water every 2–3 weeks"
+  },
+  {
+    "name": "Dracaena",
+    "department": "plants",
+    "category": "Low-Light Plants",
+    "price": 17,
+    "info": "Low to bright indirect light · Water every 1–2 weeks"
+  },
+  {
+    "name": "Rose Bouquet",
+    "department": "flowers",
+    "category": "Fresh Cut Flowers",
+    "price": 30,
+    "info": "12 stems · Lasts about 1 week"
+  },
+  {
+    "name": "Tulip Bouquet",
+    "department": "flowers",
+    "category": "Fresh Cut Flowers",
+    "price": 22,
+    "info": "10 stems · Lasts about 5–7 days"
+  },
+  {
+    "name": "Sunflower Bunch",
+    "department": "flowers",
+    "category": "Fresh Cut Flowers",
+    "price": 18,
+    "info": "5 stems · Lasts about 1 week"
+  },
+  {
+    "name": "Lily Bouquet",
+    "department": "flowers",
+    "category": "Fresh Cut Flowers",
+    "price": 26,
+    "info": "6 stems · Lasts about 1 week"
+  },
+  {
+    "name": "Carnation Bouquet",
+    "department": "flowers",
+    "category": "Fresh Cut Flowers",
+    "price": 15,
+    "info": "12 stems · Lasts up to 2 weeks"
+  },
+  {
+    "name": "Mixed Seasonal Bouquet",
+    "department": "flowers",
+    "category": "Fresh Cut Flowers",
+    "price": 28,
+    "info": "Assorted stems · Lasts 5–7 days"
+  },
+  {
+    "name": "Classic Terracotta Pot",
+    "department": "pots",
+    "category": "Plant Pots",
+    "price": 8,
+    "info": "6-inch diameter · Includes drainage hole"
+  },
+  {
+    "name": "Matte Ceramic Pot",
+    "department": "pots",
+    "category": "Plant Pots",
+    "price": 16,
+    "info": "7-inch diameter · Includes saucer"
+  },
+  {
+    "name": "Woven Rattan Basket Pot",
+    "department": "pots",
+    "category": "Plant Pots",
+    "price": 19,
+    "info": "Fits pots up to 8 inches · Handwoven rattan"
+  },
+  {
+    "name": "Modern Concrete Pot",
+    "department": "pots",
+    "category": "Plant Pots",
+    "price": 22,
+    "info": "8-inch diameter · Drainage hole included"
+  },
+  {
+    "name": "Self-Watering Pot",
+    "department": "pots",
+    "category": "Plant Pots",
+    "price": 25,
+    "info": "8-inch diameter · 2-week water reservoir"
+  },
+  {
+    "name": "Hanging Planter Pot",
+    "department": "pots",
+    "category": "Plant Pots",
+    "price": 14,
+    "info": "5-inch diameter · Macrame cord included"
+  },
+  {
+    "name": "All-Purpose Potting Mix",
+    "department": "supplies",
+    "category": "Soil & Plant Care",
+    "price": 12,
+    "info": "8-quart bag"
+  },
+  {
+    "name": "Succulent & Cactus Mix",
+    "department": "supplies",
+    "category": "Soil & Plant Care",
+    "price": 10,
+    "info": "4-quart bag"
+  },
+  {
+    "name": "Orchid Bark Mix",
+    "department": "supplies",
+    "category": "Soil & Plant Care",
+    "price": 11,
+    "info": "4-quart bag"
+  },
+  {
+    "name": "Liquid Plant Fertilizer",
+    "department": "supplies",
+    "category": "Soil & Plant Care",
+    "price": 9,
+    "info": "16 fl oz · Use every 2–4 weeks"
+  },
+  {
+    "name": "Neem Oil Spray",
+    "department": "supplies",
+    "category": "Soil & Plant Care",
+    "price": 13,
+    "info": "8 fl oz spray bottle"
+  },
+  {
+    "name": "Watering Can",
+    "department": "supplies",
+    "category": "Soil & Plant Care",
+    "price": 17,
+    "info": "1.5-liter capacity"
+  },
+  {
+    "name": "Wooden Plant Stand",
+    "department": "decor",
+    "category": "Plant Decor & Accessories",
+    "price": 28,
+    "info": "Fits pots up to 10 inches · 14 inches tall"
+  },
+  {
+    "name": "Macrame Plant Hanger",
+    "department": "decor",
+    "category": "Plant Decor & Accessories",
+    "price": 15,
+    "info": "Fits pots up to 6 inches · 40 inches long"
+  },
+  {
+    "name": "Decorative Pebbles",
+    "department": "decor",
+    "category": "Plant Decor & Accessories",
+    "price": 6,
+    "info": "1 lb bag · Mixed neutral tones"
+  },
+  {
+    "name": "Moss Rock Accent",
+    "department": "decor",
+    "category": "Plant Decor & Accessories",
+    "price": 9,
+    "info": "Approx. 4 inches wide"
+  },
+  {
+    "name": "String Fairy Lights",
+    "department": "decor",
+    "category": "Plant Decor & Accessories",
+    "price": 12,
+    "info": "10 feet · Battery powered"
+  },
+  {
+    "name": "Wall-Mounted Planter",
+    "department": "decor",
+    "category": "Plant Decor & Accessories",
+    "price": 20,
+    "info": "5-inch diameter · Includes mounting hardware"
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "yellow-leaves",
+    "symptom_vi": ["lá vàng", "vàng lá", "lá bị vàng", "lá úa vàng"],
+    "symptom_en": ["yellow leaves", "yellowing leaves", "leaves turning yellow", "pale leaves"],
+    "causes": [
+      {"cause_vi": "Tưới quá nhiều nước khiến rễ bị úng, thiếu oxy", "cause_en": "Overwatering, causing root suffocation", "likelihood": "high"},
+      {"cause_vi": "Thiếu ánh sáng trong thời gian dài", "cause_en": "Prolonged low light", "likelihood": "medium"},
+      {"cause_vi": "Lá già tự nhiên rụng đi, không đáng lo", "cause_en": "Natural aging of older leaves", "likelihood": "low"}
+    ],
+    "care_steps_vi": [
+      "Để đất khô hẳn giữa các lần tưới, kiểm tra bằng cách xỏ ngón tay sâu 2-3cm",
+      "Đảm bảo chậu có lỗ thoát nước",
+      "Nếu chỉ lá già bên dưới bị vàng thì đó là hiện tượng tự nhiên, không cần lo lắng"
+    ],
+    "care_steps_en": [
+      "Let the soil dry out between waterings — check by pushing a finger 2-3cm into the soil",
+      "Make sure the pot has drainage holes",
+      "If only older, lower leaves are yellowing, that's natural aging and not a concern"
+    ],
+    "suited_items": ["Snake Plant", "ZZ Plant", "Pothos"]
+  },
+  {
+    "id": "brown-tips",
+    "symptom_vi": ["lá nâu", "đầu lá khô", "mép lá cháy nâu", "lá khô đầu"],
+    "symptom_en": ["brown tips", "crispy leaf tips", "dry leaf edges", "browning leaves"],
+    "causes": [
+      {"cause_vi": "Độ ẩm không khí thấp", "cause_en": "Low air humidity", "likelihood": "high"},
+      {"cause_vi": "Tưới nước không đều đặn, thiếu nước", "cause_en": "Inconsistent watering or underwatering", "likelihood": "medium"},
+      {"cause_vi": "Tích tụ muối khoáng từ nước máy hoặc phân bón", "cause_en": "Salt buildup from tap water or fertilizer", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Tưới nước đều đặn hơn, tránh để đất khô kiệt quá lâu",
+      "Xịt sương định kỳ hoặc đặt khay nước gần cây để tăng độ ẩm",
+      "Xả trôi đất bằng nước cất mỗi vài tháng để loại bỏ muối khoáng tích tụ"
+    ],
+    "care_steps_en": [
+      "Water more consistently — avoid letting the soil go bone dry for long periods",
+      "Mist occasionally or place a water tray nearby to raise humidity",
+      "Flush the soil with distilled water every couple of months to clear mineral buildup"
+    ],
+    "suited_items": ["Snake Plant", "ZZ Plant", "Cast Iron Plant"]
+  },
+  {
+    "id": "drooping",
+    "symptom_vi": ["héo rũ", "cây bị héo", "lá rũ xuống", "cây ỉu"],
+    "symptom_en": ["drooping", "wilting", "limp leaves", "plant sagging"],
+    "causes": [
+      {"cause_vi": "Thiếu nước nghiêm trọng", "cause_en": "Severe underwatering", "likelihood": "medium"},
+      {"cause_vi": "Thừa nước gây thối rễ", "cause_en": "Overwatering causing root rot", "likelihood": "high"},
+      {"cause_vi": "Sốc nhiệt độ đột ngột", "cause_en": "Sudden temperature stress", "likelihood": "low"}
+    ],
+    "care_steps_vi": [
+      "Kiểm tra đất: nếu khô hoàn toàn hãy tưới đẫm; nếu sũng nước hãy để khô hẳn trước khi tưới lại",
+      "Xác nhận chậu thoát nước tốt, không bị đọng nước dưới đáy",
+      "Nếu nghi ngờ thối rễ, nhẹ nhàng lấy cây ra kiểm tra rễ có bị nhũn, đen không"
+    ],
+    "care_steps_en": [
+      "Check the soil — if bone dry, water thoroughly; if soggy, let it dry out fully before watering again",
+      "Confirm the pot drains well and water isn't pooling at the bottom",
+      "If root rot is suspected, gently unpot and check for mushy, dark roots"
+    ],
+    "suited_items": ["Peace Lily", "ZZ Plant", "Classic Terracotta Pot"]
+  },
+  {
+    "id": "leaf-curl",
+    "symptom_vi": ["lá cuộn", "lá bị cuộn lại", "lá quăn", "lá cuộn tròn"],
+    "symptom_en": ["curling leaves", "leaves curling up", "leaf curl"],
+    "causes": [
+      {"cause_vi": "Thiếu nước, cây tự cuộn lá để giảm mất nước", "cause_en": "Underwatering — the plant curls leaves to reduce water loss", "likelihood": "high"},
+      {"cause_vi": "Ánh nắng trực tiếp quá gắt gây stress nhiệt", "cause_en": "Intense direct sunlight causing heat stress", "likelihood": "medium"},
+      {"cause_vi": "Có rệp hoặc nhện đỏ hút nhựa ở mặt dưới lá", "cause_en": "Sap-sucking pests such as spider mites on the underside of leaves", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Tưới nước đều đặn hơn theo lịch phù hợp với loại cây",
+      "Di chuyển cây ra khỏi ánh nắng trực tiếp gay gắt, đặc biệt buổi trưa",
+      "Kiểm tra mặt dưới lá xem có rệp/nhện không, nếu có thì lau sạch và xịt dầu neem"
+    ],
+    "care_steps_en": [
+      "Water more consistently on a schedule suited to the plant",
+      "Move the plant out of harsh direct sun, especially midday light",
+      "Check the underside of leaves for pests; wipe clean and treat with neem oil if found"
+    ],
+    "suited_items": ["Pothos", "Philodendron", "Neem Oil Spray"]
+  },
+  {
+    "id": "leaf-drop",
+    "symptom_vi": ["rụng lá", "lá rụng nhiều", "cây rụng lá liên tục"],
+    "symptom_en": ["leaves falling off", "leaf drop", "losing leaves", "dropping leaves"],
+    "causes": [
+      {"cause_vi": "Cây bị sốc do mới chuyển vị trí hoặc thay đổi môi trường", "cause_en": "Stress from a recent move or environment change", "likelihood": "high"},
+      {"cause_vi": "Gió lùa hoặc thay đổi nhiệt độ đột ngột", "cause_en": "Drafts or sudden temperature swings", "likelihood": "medium"},
+      {"cause_vi": "Thay đổi lớn về lượng ánh sáng nhận được", "cause_en": "A big shift in the amount of light received", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Giữ cây ở vị trí ổn định trong vài tuần, tránh di chuyển liên tục",
+      "Tránh đặt gần cửa sổ có gió lùa hoặc điều hòa/lò sưởi",
+      "Cho cây thời gian thích nghi trước khi thay đổi chế độ chăm sóc"
+    ],
+    "care_steps_en": [
+      "Keep the plant in a stable spot for a few weeks — avoid moving it repeatedly",
+      "Avoid placing it near drafts, air conditioning, or heaters",
+      "Give the plant time to acclimate before changing its care routine further"
+    ],
+    "suited_items": ["ZZ Plant", "Cast Iron Plant"]
+  },
+  {
+    "id": "no-growth",
+    "symptom_vi": ["không phát triển", "cây không lớn", "cây chậm lớn", "cây đứng yên không ra lá mới"],
+    "symptom_en": ["not growing", "no new growth", "stunted growth", "slow growth"],
+    "causes": [
+      {"cause_vi": "Đang trong mùa nghỉ (thu-đông), cây tự nhiên chậm lớn", "cause_en": "Seasonal dormancy in fall/winter", "likelihood": "medium"},
+      {"cause_vi": "Thiếu ánh sáng phù hợp trong mùa sinh trưởng", "cause_en": "Insufficient light during the growing season", "likelihood": "high"},
+      {"cause_vi": "Thiếu dinh dưỡng, đất đã cạn kiệt chất", "cause_en": "Nutrient-depleted soil", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Nếu đang mùa thu-đông, đây là hiện tượng bình thường, không cần can thiệp nhiều",
+      "Vào mùa sinh trưởng, đảm bảo cây nhận đủ ánh sáng phù hợp với nhu cầu",
+      "Bón phân lỏng pha loãng mỗi 2-4 tuần trong mùa sinh trưởng"
+    ],
+    "care_steps_en": [
+      "If it's fall/winter, this is normal seasonal slowdown and needs little intervention",
+      "During the growing season, make sure the plant is getting enough light for its needs",
+      "Feed with a diluted liquid fertilizer every 2-4 weeks during the growing season"
+    ],
+    "suited_items": ["Liquid Plant Fertilizer", "Areca Palm"]
+  },
+  {
+    "id": "pests",
+    "symptom_vi": ["sâu bệnh", "rệp", "côn trùng", "nhện đỏ", "có đốm trắng nhỏ di chuyển", "muỗi đất"],
+    "symptom_en": ["pests", "bugs", "insects", "spider mites", "webbing", "gnats", "mealybugs"],
+    "causes": [
+      {"cause_vi": "Nhện đỏ hoặc rệp sáp hút nhựa cây", "cause_en": "Spider mites or mealybugs feeding on the plant", "likelihood": "high"},
+      {"cause_vi": "Ruồi giấm/muỗi đất do đất luôn ẩm ướt", "cause_en": "Fungus gnats from consistently damp soil", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Lau lá bằng khăn ẩm, cách ly cây khỏi các cây khác để tránh lây lan",
+      "Xịt dầu neem đều đặn mỗi tuần trong 2-3 tuần",
+      "Để lớp đất mặt khô hẳn giữa các lần tưới để hạn chế muỗi đất"
+    ],
+    "care_steps_en": [
+      "Wipe leaves with a damp cloth and isolate the plant from others to prevent spread",
+      "Treat weekly with a neem oil spray for 2-3 weeks",
+      "Let the top layer of soil dry out between waterings to discourage fungus gnats"
+    ],
+    "suited_items": ["Neem Oil Spray"]
+  },
+  {
+    "id": "mold-soil",
+    "symptom_vi": ["nấm mốc trên đất", "đốm trắng trên đất", "đất bị mốc", "mốc trắng"],
+    "symptom_en": ["mold on soil", "white spots on soil", "fungus on soil", "fuzzy white soil"],
+    "causes": [
+      {"cause_vi": "Độ ẩm dư thừa kết hợp thông gió kém", "cause_en": "Excess moisture combined with poor airflow", "likelihood": "high"},
+      {"cause_vi": "Chậu không thoát nước tốt, giữ ẩm quá lâu", "cause_en": "A pot that drains poorly and stays damp too long", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Cạo bỏ lớp mốc trên bề mặt đất",
+      "Để đất khô hơn giữa các lần tưới",
+      "Đặt cây ở nơi thông thoáng hơn, cân nhắc đổi sang chậu đất nung để thoát ẩm tốt hơn"
+    ],
+    "care_steps_en": [
+      "Scrape off the moldy top layer of soil",
+      "Let the soil dry out more between waterings",
+      "Move the plant somewhere with better airflow, and consider a terracotta pot for better moisture control"
+    ],
+    "suited_items": ["Classic Terracotta Pot"]
+  },
+  {
+    "id": "waterlogged-soil",
+    "symptom_vi": ["đất quá ẩm", "đất úng nước", "đất sũng nước", "tưới quá nhiều nước"],
+    "symptom_en": ["waterlogged soil", "soggy soil", "soil too wet", "overwatered soil"],
+    "causes": [
+      {"cause_vi": "Tưới nước quá thường xuyên so với nhu cầu của cây", "cause_en": "Watering more often than the plant needs", "likelihood": "high"},
+      {"cause_vi": "Chậu không có lỗ thoát nước hoặc lỗ bị tắc", "cause_en": "No drainage hole, or a blocked one", "likelihood": "high"},
+      {"cause_vi": "Đất trồng giữ nước quá nhiều, thiếu độ thông thoáng", "cause_en": "Potting mix that retains too much water and lacks aeration", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Ngưng tưới cho đến khi lớp đất trên cùng khô hẳn",
+      "Chuyển sang chậu có lỗ thoát nước tốt, ví dụ chậu đất nung",
+      "Nếu rễ có dấu hiệu thối (mềm, đen), cắt bỏ phần rễ hỏng và thay đất mới"
+    ],
+    "care_steps_en": [
+      "Stop watering until the top layer of soil is completely dry",
+      "Repot into a pot with good drainage, such as a terracotta pot",
+      "If roots show signs of rot (mushy, dark), trim the damaged roots and refresh the soil"
+    ],
+    "suited_items": ["Classic Terracotta Pot", "Snake Plant", "ZZ Plant"]
+  },
+  {
+    "id": "sunburn",
+    "symptom_vi": ["cháy lá", "lá bạc màu do nắng", "lá bị nắng gắt làm hỏng", "lá có vệt trắng do nắng"],
+    "symptom_en": ["leaf scorch", "sunburned leaves", "bleached leaves", "sun damage"],
+    "causes": [
+      {"cause_vi": "Cây bị đặt dưới ánh nắng trực tiếp quá gắt trong thời gian dài", "cause_en": "Prolonged exposure to harsh direct sunlight", "likelihood": "high"},
+      {"cause_vi": "Chuyển cây ra nắng đột ngột mà chưa cho thích nghi dần", "cause_en": "Sudden move to direct sun without gradual acclimation", "likelihood": "medium"}
+    ],
+    "care_steps_vi": [
+      "Di chuyển cây đến nơi có ánh sáng gián tiếp, tránh nắng trưa gay gắt",
+      "Nếu cần cho cây ra nắng nhiều hơn, tập cho quen dần trong vài tuần",
+      "Cắt tỉa phần lá cháy nặng, lá mới mọc ra sẽ khỏe hơn"
+    ],
+    "care_steps_en": [
+      "Move the plant to bright indirect light, away from harsh midday sun",
+      "If more sun is needed, acclimate the plant gradually over a few weeks",
+      "Trim off severely scorched leaves; new growth should come in healthier"
+    ],
+    "suited_items": ["Peace Lily", "Calathea", "Philodendron"]
+  }
+]
